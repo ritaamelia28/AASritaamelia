@@ -1,0 +1,81 @@
+DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: hsl(221, 39%, 49%);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table th, table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .photo {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .photo img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid hsl(236, 39%, 49%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Biodata Rita</h1>
+        <table>
+            <tr>
+                <th>Nama</th>
+                <td>Rita Amelia</td>
+            </tr>
+            <tr>
+                <th>Tempat, Tanggal Lahir</th>
+                <td>Garut, 28 Agustus 2006</td>
+            </tr>
+            <tr>
+                <th>Jenis Kelamin</th>
+                <td>Perempuan</td>
+            </tr>
+            <tr>
+                <th>Alamat</th>
+                <td>Jl. Raya Poncol Gg Nusa Indah Rt01/Rw07, Ciracas Jakarta Timur</td>
+            </tr>
+            <tr>
+                <th>Hobi</th>
+                <td> Mendengarkan musik dan Olahraga
+                </td>
+            </tr>
+            <tr>
+                <th>Keahlian</th>
+                <td>Teknik Komputer Jaringan</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
